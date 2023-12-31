@@ -1,3 +1,4 @@
+#docs
 src\main.cpp: This is the main entry point of your application. It includes the MainMenu function which is responsible for rendering the main menu of your application. It also includes the definitions of several classes such as Vector2D, GameObject, Ball, Paddle, and CpuPaddle. The game function is responsible for the main game loop.
 
 src\MainMenu.h: This file contains the declaration of the MainMenu function. The MainMenu function initializes the game window, loads the background image, and handles the main menu loop. It also checks for user interactions with the "Play" and "Quit" buttons.
