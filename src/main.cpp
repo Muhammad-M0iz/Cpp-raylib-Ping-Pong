@@ -1,4 +1,3 @@
-#pragma once
 #include<raylib.h>
 #include <iostream>
 #include"functions.h"
@@ -61,7 +60,7 @@ Ball() {
 
 //draw and update functions
      void Draw() const override {
-        DrawCircle(x, y, radius, YELLOW);
+        DrawCircle(x, y, radius, RED);
     }
     void Update()override{
         x += speed_x;

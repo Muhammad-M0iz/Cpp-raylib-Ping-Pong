@@ -1,6 +1,5 @@
 #pragma once
-
-#include"main.cpp"
+#include"raylib.h"
 void MainMenu(){
     bool exitMenu = false;
     InitWindow(screen_width, screen_height, "Menu");
